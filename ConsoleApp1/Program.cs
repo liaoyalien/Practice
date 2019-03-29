@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
 
             //branch 1 update a little bit 2
+            //branch 1 update 3
 
             GroupJoin.GroupJoinExample();
 
