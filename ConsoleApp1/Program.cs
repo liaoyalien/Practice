@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            //branch 1 update a little bit
+            //branch 1 update a little bit 2
 
             GroupJoin.GroupJoinExample();
 
