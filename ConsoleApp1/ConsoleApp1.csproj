@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClassAndInterface.cs" />
+    <Compile Include="Enums\SoStatusEnum.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="GroupJoinExample.cs" />
     <Compile Include="Program.cs" />
