@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCore", "WebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{50365E4F-0C43-4A7F-9140-321927058507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic With Indexers 2.2.6", "Generic\Generic With Indexers 2.2.6.csproj", "{A2B432FE-97FF-4482-A24E-B3DF19E0116F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{50365E4F-0C43-4A7F-9140-321927058507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50365E4F-0C43-4A7F-9140-321927058507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50365E4F-0C43-4A7F-9140-321927058507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
