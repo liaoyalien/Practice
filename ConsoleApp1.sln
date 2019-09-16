@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic With Indexers 2.2.6", "Generic\Generic With Indexers 2.2.6.csproj", "{A2B432FE-97FF-4482-A24E-B3DF19E0116F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMask", "StringMask\StringMask.csproj", "{5D8F1A68-FD51-4492-B28D-07188EBEFE00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B432FE-97FF-4482-A24E-B3DF19E0116F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8F1A68-FD51-4492-B28D-07188EBEFE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8F1A68-FD51-4492-B28D-07188EBEFE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8F1A68-FD51-4492-B28D-07188EBEFE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8F1A68-FD51-4492-B28D-07188EBEFE00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
