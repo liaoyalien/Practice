@@ -7,9 +7,7 @@ namespace Generic
 {
     public class MyGenericList<T>: IMyList<T>
     {
-        //private List<T> _elements = new List<T>();
-
-        private T[] _elements = new T[100];
+        private readonly T[] _elements = new T[100];
 
         public int Count => _elements.Length;
 
@@ -20,7 +18,7 @@ namespace Generic
         {
             get
             {
-                Console.Write(index);
+               Console.Write(index);
                return _elements[index]; 
                 
             }
