@@ -18,5 +18,12 @@ namespace ConsoleApp1.Extensions.Tests
             var des = SoStatusEnum.Approved.GetDescription();
             Assert.Fail();
         }
+
+        [TestMethod()]
+        public void GetCustomAttributeTest()
+        {
+            var column = GameIdEnum.SB.GetAttribute<DbColumn>().ToString(); 
+            Assert.IsTrue(column.Equals("Sabah"));
+        }
     }
 }

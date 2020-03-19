@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClassAndInterface.cs" />
+    <Compile Include="DbColumn.cs" />
+    <Compile Include="Enums\GameIdEnum.cs" />
     <Compile Include="Enums\SoStatusEnum.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="GroupJoinExample.cs" />

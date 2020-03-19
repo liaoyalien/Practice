@@ -14,6 +14,9 @@ namespace ConsoleApp1.Extensions
             var type = value.GetType();
             var name = Enum.GetName(type, value);
 
+            var test = type.GetField(name);
+            var test2 = type.GetField(name).GetCustomAttributes(false);
+
             return type.GetField(name).GetCustomAttributes(false).OfType<TAttribute>().SingleOrDefault(); // I prefer to get attributes this way
         }
 
